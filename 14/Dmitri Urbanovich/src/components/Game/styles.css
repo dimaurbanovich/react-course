@@ -1,0 +1,27 @@
+.Game__cells {
+  display: flex;
+}
+
+.Game__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.Game__cell {
+  width: 20px;
+  height: 20px;
+  border: solid gray 1px;
+  background-color: white;
+}
+
+.Game__cell--alive {
+  background-color: black;
+}
+
+.Game__cell--dead {
+  background-color: white;
+}
+
+.Game__startGameButton {
+    margin-top: 8px;
+}
